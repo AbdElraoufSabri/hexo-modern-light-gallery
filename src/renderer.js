@@ -30,8 +30,6 @@ function addRunnableTag(data) {
         `if (typeof lightGallery !== 'undefined') {
             var options = {
             thumbnail:true,
-            animateThumb: false,
-            showThumbByDefault: false,
             selector: '.lightgallery'
         };
         var galleries = document.getElementsByClassName("gallery");

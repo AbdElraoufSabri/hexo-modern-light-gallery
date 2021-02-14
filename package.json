@@ -1,6 +1,6 @@
 {
   "name": "hexo-modern-light-gallery",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Generate gallery using light gallery for Hexo",
   "main": "index.js",
   "scripts": {
