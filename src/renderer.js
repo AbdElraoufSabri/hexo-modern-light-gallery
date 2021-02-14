@@ -34,8 +34,8 @@ function addRunnableTag(data) {
             showThumbByDefault: false,
             selector: '.lightgallery'
         };
-        var gallries = document.getElementsByClassName("gallery");
-        for (let item of elements) {
+        var galleries = document.getElementsByClassName("gallery");
+        for (let item of galleries) {
             lightGallery(item, options)
         }
         }` +
