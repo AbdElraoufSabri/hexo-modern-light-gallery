@@ -1,6 +1,3 @@
-/**
- * Created by lzane on 8/27/17.
- */
 var renderer = require('./src/renderer');
 
 hexo.config.lightgallery = Object.assign({
