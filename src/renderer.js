@@ -34,8 +34,10 @@ function addRunnableTag(data) {
             showThumbByDefault: false,
             selector: '.lightgallery'
         };
-        
-        lightGallery(document.getElementsByClassName('.gallery')[0], options);
+        var gallries = document.getElementsByClassName("gallery");
+        for (let item of elements) {
+            lightGallery(item, options)
+        }
         }` +
         '</script>';
 }
